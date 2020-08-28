@@ -1,0 +1,95 @@
+header{
+    background-image: url("../images/bg-hero-desktop.svg");
+    background-color: #effbfe;
+    padding: 3rem 3rem 1rem 3rem;
+    margin-bottom: 2.5rem;
+}
+header .primary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+header .secundary{
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #00252e;
+}
+
+.btn-pink{
+    /*width: 14rem;*/
+    padding: 1rem 1.2rem;
+    font-size: 0.9rem;
+    background-color: #ff52bf;
+    color: #fff;
+    border-radius: 50px;
+
+}
+
+main{
+    padding: 2rem 8rem 1rem 8rem;
+    margin-bottom: 2.5rem;
+}
+.caja {
+    margin:2% auto;
+    padding: 3% 2%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 5px 10px 5px hsl(208, 11%, 55%);
+}
+.caja h3{
+    padding: 10% 6%;
+    font-weight: 600;
+}
+.cajaText{
+    padding: 0% 6%;
+    color: hsl(208, 11%, 55%)
+}
+.caja img{
+    width: 400px;
+}
+.cajaGrow img{    
+    margin-left: 5%;
+}
+#ctr{
+    position: relative;
+    top:120px;
+}
+.cajaCtr{
+    margin: 2% 20%;
+    height: 250px;
+    background-color: white;
+}
+.ctrText{
+    text-align: center;
+    padding: 1%;
+    font-weight: 600;
+}
+footer{
+    background-color: rgb(9, 7, 29);
+    padding: 15rem 10rem 1rem 10rem;
+    margin-bottom: 2.5rem;
+    color: white;
+}
+.logoFooter{
+    fill: white;
+    padding-bottom: 5%;
+}
+.footerText{
+    margin: 0 auto 5%;
+    padding-left: 10%;
+    color:white
+}
+.logors{
+    margin: 0 10%;
+    padding-left: 50px;
+}
+@media(max-width:800px){
+    .caja img{
+        width: 300px;
+    }
+    footer{
+        padding: 35% 2% 5%;
+    }
+}

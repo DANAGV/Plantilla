@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+  <title>Frontend Mentor | Huddle landing page with alternating feature cajas</title>
+
+  <!-- hola Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/507fb1a438.js" crossorigin="anonymous"></script>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <!--<header>
+    <div class="primary">
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo">
+      </div>
+      <div class="call-to-action">
+        <button type="button" class="btn btn-outline-dark">Try it free</button>
+      </div>
+    </div>
+    <div class="secundary">
+      <div class="message">
+        <h1><span class="message-heading">Construye tu comunidad</span><span class="message-heading"> A tus fans les encantará</span></h1>
+        <p>Aqui poner descripcion del mensaje</p>
+        <button type="button" class="btn btn-danger">Get started for free</button>
+      </div>
+      <div class="community-interface">
+        <img src="images/illustration-mockups.svg" alt="illustration-mockups">
+      </div>
+    </div>
+  </header>-->
+  
+  <header>
+    <div class="container-fluid d-flex primary"> 
+      <div class="col">
+        <div class="row">
+          <div class="col-6 col-md-4 text-left">
+            <div class="logo">
+              <img src="images/logo.svg" alt="logo">
+            </div>
+          </div>
+        <div class="col-6 col-md-4"></div>
+        <div class="col-6 col-md-4 text-right">
+          <button type="button" class="btn btn-outline-dark">Try it free</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid d-flex secundary"> 
+      <div class="col">
+        <div class="row align-items-center">
+          <div class="col-sm-5">
+            <div class="message">
+              <h1><span class="message-heading">Construye tu comunidad</span><span class="message-heading"><br> A tus fans les encantará</span></h1>
+              <p>Huddle reimagina la forma en la que contruimos comunidades. Tienes voz, pero también tu audiencia. Crea conexiones con tus usuarios a medida que participa en una discusión genuina</p>
+              <button type="button" class="btn btn-pink">Get started for free</button>
+            </div>
+          </div>
+          <div class="col-sm-7 text-center">
+            <div class="community-interface">
+              <img src="images/illustration-mockups.svg" alt="illustration-mockups" width="70%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class = "row-lg-1"> 
+        <div class = "col caja cajaGrow"><!--esta es el primer mensaje--> 
+          <div class = "row"> 
+          <div class = "col"> <h3 class = ""> Crecer juntos </h3 > 
+          <p class = "cajaText"> Genere discusiones significativas con su audiencia y construya una comunidad sólida y leal. Piense en las conversaciones interesantes que se pierde con un formulario de comentarios. </p> 
+        </div> 
+        <div class = "col"> 
+        <img src = "images/illustration-grow-together.svg" alt = ""> 
+      </div> 
+      </div> 
+    </div>
+
+    <div class = "col caja cajaGrow"> <!--esta es el segundo mensaje--> 
+      <div class = "row"> 
+        <div class = "col"> 
+          <img src = "images/illustration-flowing-conversation.svg" alt = ""> 
+        </div> 
+  <div class = "col"> <h3 class = ""> Conversaciones fluidas </h3 > 
+    <p class = "cajaText"> No paginaria una conversación en la vida real, entonces, ¿por qué hacerlo en línea? Nuestros hilos tienen carga justo a tiempo para un flujo más natural. </p> 
+  </div> 
+  </div> 
+</div>
+    <div class = "col caja cajaGrow"> <!--esta es el tercer mensaje--> 
+      <div class = "row"> 
+      <div class = "col"> <h3 class = ""> Sus usuarios </h3 > 
+      <p class = "cajaText">  No lleva mucho tiempo integrar Huddle con la solución de autenticación de su aplicación.Esto significa que, una vez que hayan iniciado sesión en su splicación, sus usuarios pueden comenzar a chatear de inmediato. </p> 
+    </div> 
+    <div class = "col"> 
+    <img src = "images/illustration-your-users.svg" alt = ""> 
+  </div> 
+  </div> 
+</div>
+    </div>
+    </div>
+  </main>
+  <section id="ctr">
+      <div class="container">
+        <div class="row">
+          <div class="col caja cajaCtr d-flex justify-content-center">
+            <div class="row justify-content-center">
+              <div class="col-12">
+                <h2 class="ctrText"> ¿Listos para construir tu comunidad?</h2>
+              </div>
+              <button type="button" name="button" class="btn btn-lg btn-pink btnShadown">Iniciar gratuitamente</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </section>
+  <footer>
+      <img class="logoFooter" src="images/logo.svg" alt="logo"></img>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6"> <!--contacto-->
+            <div class="row-lg-2">
+              <div class="col">
+                <i class="fas fa-map-marker-alt logoFooter">
+                <div class="container">
+                  <p footerText>Lorem ipsum dolor sit amet,consectetur adipiscing elit, set dolore magna aliqua</p>
+                </div>
+                </i>
+              </div>
+              <div class="col">
+                <i class="fas fa-phone-alt logoFooter">
+                  <div class="container">
+                    <p footerText> +1-543-123-4567</p>
+                  </div>
+                </i>
+              </div>
+              <div class="col">
+                <i class="fas fa-envelope-open-text logoFooter">
+                  <div class="container">
+                    <p class="footerText"> example@huddle.com</p>
+                  </div>
+                </i>
+              </div>
+            </div> <!--cerrar row-->
+          </div><!--cerrar columa-->
+          <div class="col-lg-2"> <!--SEGUNDA COLUMNA-->
+            <div class="row-lg-1">
+              <div class="col">
+                <a href="#" class="footerText">About Us</a>
+              </div>
+              <div class="col">
+                <a href="#" class="footerText">¿Qué hacemos?</a>
+              </div>
+              <div class="col">
+                <a href="#" class="footerText">FAQ</a> 
+              </div>
+            </div> <!--cerrar row-->
+          </div> <!--cerrar columna-->
+          <div class="col-lg-2"> <!--TERCER COLUMN-->
+            <div class="row-lg-1">
+              <div class="col">
+                <a href="#" class="footerText">Crear</a>
+              </div>
+              <div class="col">
+                <a href="#" class="footerText">Blog</a>
+              </div>
+              <div class="col">
+                <a href="#" class="footerText">Contacto</a> 
+              </div>
+            </div> <!--cerrar row-->
+          </div> <!--cerrar comuna-->
+          <div class="col rsCol">
+                <a href="#" class="footerText"><i class="fab fa-twitter logors"></i></a>
+                <a href="#" class="footerText"><i class="fab fa-facebook-f logors"></i></a>
+                <a href="#" class="footerText"><i class="fab fa-instagram logors"></i></a>
+          </div> <!--cerrar columna-->
+        </div> <!--cerrar row-->
+      </div> <!--cerrar container-->
+  
+
+  <!-- <div class="row">
+    <div class="col-12 text-left">
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo">
+      </div>
+    </div>
+    <div class="col-5">
+      <div class="ubicacion">
+        <i class="fas fa-phone-alt logoFooter">
+          <div class="container">
+            <p>+1-543-123-4567</p>
+          </div>
+        </i>
+        <ul>
+          <li> example@huddle.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-2">
+        <ul>
+            <li>Acerca de nosotros</li>
+            <li>Qué hacemos</li>
+            <li>FAQ</li>
+        </ul>
+    </div>
+    <div class="col-2">
+        <ul>
+            <li>Crear</li>
+            <li>Blog</li>
+            <li>Contactenos</li>
+        </ul>
+    </div>
+    <div class="col-3">
+        FB  TW
+    </div>
+    <div class="col">
+        <div class="attribution text-rigth">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">Dana</a>.
+          </div>
+    </div>
+  </div>-->
+</footer> <!--cerrar footer-->
+</body>
+</html>
